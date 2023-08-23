@@ -23,7 +23,11 @@ function App() {
       </WagmiConfig>
 
       <Web3Modal projectId={projectId} ethereumClient={ethereumClient} />
-      <a style={{ position: 'absolute', bottom: 12, left: 12 }} href='https://madhavanmalolan.xyz'>By Madhavan Malolan</a>
+      <div style={{ position: 'absolute', bottom: 12, left: 12 }}>
+        <a href='https://madhavanmalolan.xyz'>Madhavan Malolan</a>
+        &nbsp;|&nbsp;
+        <a href='https://github.com/madhavanmalolan/ethsignmessage'>GitHub</a>
+      </div>
     </>
   )
 }
