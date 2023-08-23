@@ -26,7 +26,7 @@ function App() {
       <div style={{ position: 'absolute', bottom: 12, left: 12 }}>
         <a href='https://madhavanmalolan.xyz'>Madhavan Malolan</a>
         &nbsp;|&nbsp;
-        <a href='https://github.com/madhavanmalolan/ethsignmessage'>GitHub</a>
+        <a href='https://github.com/madhavanmalolan/signethmessage'>GitHub</a>
       </div>
     </>
   )
