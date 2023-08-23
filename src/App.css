@@ -1,5 +1,6 @@
 body {
   margin: 12px;
+  min-height: 100vh;
 }
 .App {
   text-align: center;
