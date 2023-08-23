@@ -27,7 +27,7 @@ export default function(props) {
                 setSignedObject({
                     message: m,
                     signature,
-                    timestamp,
+                    timestamp : Date(timestamp).toString(),
                     address: account.address,
                 })
                 clearInterval(timeout);
