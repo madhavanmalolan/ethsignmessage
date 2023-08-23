@@ -22,7 +22,8 @@ export default function(props) {
                 clearInterval(timeout);
                 console.log("signing message", message)
                 const timestamp = Date.now();
-                const signature = await signMessageAsync({message : "x19Ethereum Signed Message:\n"+message+" at timestamp: "+timestamp}, console.error, console.log); 
+                const m = "x19Ethereum Signed Message:\n"+message+" at timestamp: "+timestamp;
+                const signature = await signMessageAsync({message : m}, console.error, console.log); 
                 setSignedObject({
                     message,
                     signature,
