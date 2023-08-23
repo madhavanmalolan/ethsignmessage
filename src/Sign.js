@@ -29,6 +29,7 @@ export default function(props) {
                     signature,
                     timestamp : Date(timestamp).toString(),
                     address: account.address,
+                    source: "https://signethmessage.org"
                 })
                 clearInterval(timeout);
             }
