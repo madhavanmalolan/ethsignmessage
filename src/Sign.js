@@ -25,7 +25,7 @@ export default function(props) {
                 const m = "x19Ethereum Signed Message:\n"+message+" at timestamp: "+timestamp;
                 const signature = await signMessageAsync({message : m}, console.error, console.log); 
                 setSignedObject({
-                    message,
+                    message: m,
                     signature,
                     timestamp,
                     address: account.address,
